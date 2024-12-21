@@ -1544,7 +1544,7 @@
 
           textareas.forEach((el) => {
             const textarea = document.querySelector(el);
-            const overlay = textarea.closest(".hs-overlay");
+            const overlay = textarea?.closest(".hs-overlay");
 
             if (overlay) {
               const { element } = HSOverlay.getInstance(overlay, true);
