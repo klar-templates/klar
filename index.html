@@ -969,10 +969,14 @@
         <div class="max-w-3xl mb-10 lg:mb-14">
           <h2
             class="text-white font-semibold text-2xl md:text-4xl md:leading-tight"
+            data-klar-editable="Title"
           >
             Our approach
           </h2>
-          <p class="mt-1 text-neutral-400">
+          <p
+            class="mt-1 text-neutral-400"
+            data-klar-editable='{title:"Text",type:"string",ui:widget:"textarea"}'
+          >
             This profound insight guides our comprehensive strategy — from
             meticulous research and strategic planning to the seamless execution
             of brand development and website or product deployment.
@@ -989,6 +993,7 @@
               class="w-full object-cover rounded-xl"
               src="https://images.unsplash.com/photo-1587614203976-365c74645e83?q=80&w=480&h=600&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
               alt="Image Description"
+              data-klar-editable='[{title:"Image",attribute:"src"},{title:"Alt text",attribute:"alt"}]'
             />
           </div>
           <!-- End Col -->
